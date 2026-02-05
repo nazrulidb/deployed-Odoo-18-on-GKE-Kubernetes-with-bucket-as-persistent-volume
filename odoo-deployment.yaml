@@ -55,7 +55,7 @@ spec:
             
         - name: custom-addons
           persistentVolumeClaim:
-            claimName: s3-pvc-2
+            claimName: efs-claim-module
             readOnly: false
             
         - name: odoo-config-volume
